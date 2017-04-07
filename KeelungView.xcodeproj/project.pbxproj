@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1F711F81E97CC330016F54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F711F71E97CC330016F54B /* AppDelegate.swift */; };
+		A1F711FA1E97CC330016F54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F711F91E97CC330016F54B /* ViewController.swift */; };
+		A1F711FD1E97CC330016F54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F711FB1E97CC330016F54B /* Main.storyboard */; };
+		A1F711FF1E97CC330016F54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F711FE1E97CC330016F54B /* Assets.xcassets */; };
+		A1F712021E97CC330016F54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F712001E97CC330016F54B /* LaunchScreen.storyboard */; };
+		A1F7120D1E97CC330016F54B /* KeelungViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F7120C1E97CC330016F54B /* KeelungViewTests.swift */; };
+		A1F712181E97CC330016F54B /* KeelungViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F712171E97CC330016F54B /* KeelungViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F712091E97CC330016F54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F711EC1E97CC330016F54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F711F31E97CC330016F54B;
+			remoteInfo = KeelungView;
+		};
+		A1F712141E97CC330016F54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F711EC1E97CC330016F54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F711F31E97CC330016F54B;
+			remoteInfo = KeelungView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1F711F41E97CC330016F54B /* KeelungView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeelungView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F711F71E97CC330016F54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F711F91E97CC330016F54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1F711FC1E97CC330016F54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F711FE1E97CC330016F54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F712011E97CC330016F54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F712031E97CC330016F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F712081E97CC330016F54B /* KeelungViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeelungViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F7120C1E97CC330016F54B /* KeelungViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeelungViewTests.swift; sourceTree = "<group>"; };
+		A1F7120E1E97CC330016F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F712131E97CC330016F54B /* KeelungViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeelungViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F712171E97CC330016F54B /* KeelungViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeelungViewUITests.swift; sourceTree = "<group>"; };
+		A1F712191E97CC330016F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F711F11E97CC330016F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F712051E97CC330016F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F712101E97CC330016F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1F711EB1E97CC330016F54B = {
+			isa = PBXGroup;
+			children = (
+				A1F711F61E97CC330016F54B /* KeelungView */,
+				A1F7120B1E97CC330016F54B /* KeelungViewTests */,
+				A1F712161E97CC330016F54B /* KeelungViewUITests */,
+				A1F711F51E97CC330016F54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F711F51E97CC330016F54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F711F41E97CC330016F54B /* KeelungView.app */,
+				A1F712081E97CC330016F54B /* KeelungViewTests.xctest */,
+				A1F712131E97CC330016F54B /* KeelungViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F711F61E97CC330016F54B /* KeelungView */ = {
+			isa = PBXGroup;
+			children = (
+				A1F711F71E97CC330016F54B /* AppDelegate.swift */,
+				A1F711F91E97CC330016F54B /* ViewController.swift */,
+				A1F711FB1E97CC330016F54B /* Main.storyboard */,
+				A1F711FE1E97CC330016F54B /* Assets.xcassets */,
+				A1F712001E97CC330016F54B /* LaunchScreen.storyboard */,
+				A1F712031E97CC330016F54B /* Info.plist */,
+			);
+			path = KeelungView;
+			sourceTree = "<group>";
+		};
+		A1F7120B1E97CC330016F54B /* KeelungViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F7120C1E97CC330016F54B /* KeelungViewTests.swift */,
+				A1F7120E1E97CC330016F54B /* Info.plist */,
+			);
+			path = KeelungViewTests;
+			sourceTree = "<group>";
+		};
+		A1F712161E97CC330016F54B /* KeelungViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F712171E97CC330016F54B /* KeelungViewUITests.swift */,
+				A1F712191E97CC330016F54B /* Info.plist */,
+			);
+			path = KeelungViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F711F31E97CC330016F54B /* KeelungView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F7121C1E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungView" */;
+			buildPhases = (
+				A1F711F01E97CC330016F54B /* Sources */,
+				A1F711F11E97CC330016F54B /* Frameworks */,
+				A1F711F21E97CC330016F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeelungView;
+			productName = KeelungView;
+			productReference = A1F711F41E97CC330016F54B /* KeelungView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F712071E97CC330016F54B /* KeelungViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F7121F1E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewTests" */;
+			buildPhases = (
+				A1F712041E97CC330016F54B /* Sources */,
+				A1F712051E97CC330016F54B /* Frameworks */,
+				A1F712061E97CC330016F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F7120A1E97CC330016F54B /* PBXTargetDependency */,
+			);
+			name = KeelungViewTests;
+			productName = KeelungViewTests;
+			productReference = A1F712081E97CC330016F54B /* KeelungViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F712121E97CC330016F54B /* KeelungViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F712221E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewUITests" */;
+			buildPhases = (
+				A1F7120F1E97CC330016F54B /* Sources */,
+				A1F712101E97CC330016F54B /* Frameworks */,
+				A1F712111E97CC330016F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F712151E97CC330016F54B /* PBXTargetDependency */,
+			);
+			name = KeelungViewUITests;
+			productName = KeelungViewUITests;
+			productReference = A1F712131E97CC330016F54B /* KeelungViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F711EC1E97CC330016F54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AndyChung;
+				TargetAttributes = {
+					A1F711F31E97CC330016F54B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					A1F712071E97CC330016F54B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1F711F31E97CC330016F54B;
+					};
+					A1F712121E97CC330016F54B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1F711F31E97CC330016F54B;
+					};
+				};
+			};
+			buildConfigurationList = A1F711EF1E97CC330016F54B /* Build configuration list for PBXProject "KeelungView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F711EB1E97CC330016F54B;
+			productRefGroup = A1F711F51E97CC330016F54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F711F31E97CC330016F54B /* KeelungView */,
+				A1F712071E97CC330016F54B /* KeelungViewTests */,
+				A1F712121E97CC330016F54B /* KeelungViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F711F21E97CC330016F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F712021E97CC330016F54B /* LaunchScreen.storyboard in Resources */,
+				A1F711FF1E97CC330016F54B /* Assets.xcassets in Resources */,
+				A1F711FD1E97CC330016F54B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F712061E97CC330016F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F712111E97CC330016F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F711F01E97CC330016F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F711FA1E97CC330016F54B /* ViewController.swift in Sources */,
+				A1F711F81E97CC330016F54B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F712041E97CC330016F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F7120D1E97CC330016F54B /* KeelungViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F7120F1E97CC330016F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F712181E97CC330016F54B /* KeelungViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F7120A1E97CC330016F54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F711F31E97CC330016F54B /* KeelungView */;
+			targetProxy = A1F712091E97CC330016F54B /* PBXContainerItemProxy */;
+		};
+		A1F712151E97CC330016F54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F711F31E97CC330016F54B /* KeelungView */;
+			targetProxy = A1F712141E97CC330016F54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F711FB1E97CC330016F54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F711FC1E97CC330016F54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F712001E97CC330016F54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F712011E97CC330016F54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F7121A1E97CC330016F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F7121B1E97CC330016F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F7121D1E97CC330016F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeelungView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1F7121E1E97CC330016F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeelungView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A1F712201E97CC330016F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeelungViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeelungView.app/KeelungView";
+			};
+			name = Debug;
+		};
+		A1F712211E97CC330016F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeelungViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeelungView.app/KeelungView";
+			};
+			name = Release;
+		};
+		A1F712231E97CC330016F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KeelungViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KeelungView;
+			};
+			name = Debug;
+		};
+		A1F712241E97CC330016F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = KeelungViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KeelungView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F711EF1E97CC330016F54B /* Build configuration list for PBXProject "KeelungView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F7121A1E97CC330016F54B /* Debug */,
+				A1F7121B1E97CC330016F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F7121C1E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F7121D1E97CC330016F54B /* Debug */,
+				A1F7121E1E97CC330016F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F7121F1E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F712201E97CC330016F54B /* Debug */,
+				A1F712211E97CC330016F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1F712221E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F712231E97CC330016F54B /* Debug */,
+				A1F712241E97CC330016F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1F711EC1E97CC330016F54B /* Project object */;
+}
