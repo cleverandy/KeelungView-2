@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10AC0D61F000E4000886365 /* TripPointTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC0D51F000E4000886365 /* TripPointTableViewCell.swift */; };
+		A10AC0DA1F0011E500886365 /* MyTripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC0D91F0011E500886365 /* MyTripTableViewController.swift */; };
+		A10AC0DC1F0015C000886365 /* TripPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC0DB1F0015C000886365 /* TripPointViewController.swift */; };
+		A10AC0DE1F0016CC00886365 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC0DD1F0016CC00886365 /* EditViewController.swift */; };
+		A10AC0E01F001A4A00886365 /* AddPointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AC0DF1F001A4A00886365 /* AddPointViewController.swift */; };
+		A10AC0E21F00298600886365 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = A10AC0E11F00298600886365 /* picture.png */; };
 		A1F711F81E97CC330016F54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F711F71E97CC330016F54B /* AppDelegate.swift */; };
 		A1F711FA1E97CC330016F54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F711F91E97CC330016F54B /* ViewController.swift */; };
 		A1F711FD1E97CC330016F54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F711FB1E97CC330016F54B /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10AC0D51F000E4000886365 /* TripPointTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPointTableViewCell.swift; sourceTree = "<group>"; };
+		A10AC0D91F0011E500886365 /* MyTripTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTripTableViewController.swift; path = KeelungView/MyTripTableViewController.swift; sourceTree = "<group>"; };
+		A10AC0DB1F0015C000886365 /* TripPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPointViewController.swift; sourceTree = "<group>"; };
+		A10AC0DD1F0016CC00886365 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		A10AC0DF1F001A4A00886365 /* AddPointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPointViewController.swift; sourceTree = "<group>"; };
+		A10AC0E11F00298600886365 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
 		A1F711F41E97CC330016F54B /* KeelungView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeelungView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F711F71E97CC330016F54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F711F91E97CC330016F54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +89,8 @@
 		A1F711EB1E97CC330016F54B = {
 			isa = PBXGroup;
 			children = (
+				A10AC0E11F00298600886365 /* picture.png */,
+				A10AC0D91F0011E500886365 /* MyTripTableViewController.swift */,
 				A1F711F61E97CC330016F54B /* KeelungView */,
 				A1F7120B1E97CC330016F54B /* KeelungViewTests */,
 				A1F712161E97CC330016F54B /* KeelungViewUITests */,
@@ -100,6 +114,10 @@
 				A1F711F71E97CC330016F54B /* AppDelegate.swift */,
 				A1F711F91E97CC330016F54B /* ViewController.swift */,
 				A1F711FB1E97CC330016F54B /* Main.storyboard */,
+				A10AC0DB1F0015C000886365 /* TripPointViewController.swift */,
+				A10AC0DD1F0016CC00886365 /* EditViewController.swift */,
+				A10AC0D51F000E4000886365 /* TripPointTableViewCell.swift */,
+				A10AC0DF1F001A4A00886365 /* AddPointViewController.swift */,
 				A1F711FE1E97CC330016F54B /* Assets.xcassets */,
 				A1F712001E97CC330016F54B /* LaunchScreen.storyboard */,
 				A1F712031E97CC330016F54B /* Info.plist */,
@@ -234,6 +252,7 @@
 			files = (
 				A1F712021E97CC330016F54B /* LaunchScreen.storyboard in Resources */,
 				A1F711FF1E97CC330016F54B /* Assets.xcassets in Resources */,
+				A10AC0E21F00298600886365 /* picture.png in Resources */,
 				A1F711FD1E97CC330016F54B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F711FA1E97CC330016F54B /* ViewController.swift in Sources */,
+				A10AC0D61F000E4000886365 /* TripPointTableViewCell.swift in Sources */,
+				A10AC0DE1F0016CC00886365 /* EditViewController.swift in Sources */,
+				A10AC0DC1F0015C000886365 /* TripPointViewController.swift in Sources */,
+				A10AC0E01F001A4A00886365 /* AddPointViewController.swift in Sources */,
+				A10AC0DA1F0011E500886365 /* MyTripTableViewController.swift in Sources */,
 				A1F711F81E97CC330016F54B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +439,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeelungView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -427,10 +453,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KeelungView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AndyChung.KeelungView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +535,7 @@
 				A1F7121E1E97CC330016F54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1F7121F1E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +544,7 @@
 				A1F712211E97CC330016F54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1F712221E97CC330016F54B /* Build configuration list for PBXNativeTarget "KeelungViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +553,7 @@
 				A1F712241E97CC330016F54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
